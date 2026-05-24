@@ -1,0 +1,21 @@
+
+//本地接口配置: http://127.0.0.1:9978/file/文件夹名字/ksck.json
+
+{
+"storeHouse":
+[
+
+//{"sourceName":"潇洒本地",
+//"sourceUrl":"http://127.0.0.1:9978/file/TVBoxOSC/潇洒本地.json",
+//"parse": "{\"logo\": \"./logo/mao.gif\",\"danma\": true,\"danma_colors\": [\"#FF0000\",\"#0000FF\",\"#800080\",\"#FFFFFF\",\"#FF7F00\",\"#FFFF00\",\"#00FF00\"]}"},
+
+
+
+      { "sourceName": "阿当在线仓库",
+      "sourceUrl": "https://gitee.com/yuhang88/xgw/raw/master/zx.json",
+      //壳子弹幕配置, danma_colors 自己调色,百度搜索 rgb颜色 
+"parse": "{\"logo\":\"./logo/mao.gif\",\"danma\": true,\"danma_colors\": [\"#FFB6C1\",\"#800080\",\"#DB7093\",\"#FF69B4\",\"#FF1493\",\"#FF00FF\",\"#EE82EE\",\"#0000FF\",\"#4169E1\",\"#1E90FF\",\"#87CEFA\",\"#87CEEB\",\"#00BFFF\",\"#B0E0E6\",\"#00FFFF\",\"#00FA9A\",\"#98FB98\",\"#00FF00\",\"#ADFF2F\",\"#FFFF00\",\"#FF4500\",\"#FF0000\",\"#FA8072\"]}"    
+    }
+  ],
+  "notifyUpdate": true
+}

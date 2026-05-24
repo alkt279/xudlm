@@ -1,0 +1,24 @@
+
+//本地接口配置: http://127.0.0.1:9978/file/文件夹名字/ksck.json
+
+{
+"storeHouse":
+[
+
+//{"sourceName":"潇洒本地",
+//"sourceUrl":"http://127.0.0.1:9978/file/TVBoxOSC/潇洒本地.json",
+//"parse": "{\"logo\": \"./logo/mao.gif\",\"danma\": true,\"danma_colors\": [\"#FF0000\",\"#0000FF\",\"#800080\",\"#FFFFFF\",\"#FF7F00\",\"#FFFF00\",\"#00FF00\"]}"},
+
+
+
+      { "sourceName": "阿当4K",
+      "sourceUrl": "https://raw.giteeusercontent.com/dlmxyh/xyh/raw/master/a.json",
+      //壳子弹幕配置, danma_colors 自己调色,百度搜索 rgb颜色 
+"parse": "{\"logo\":\"./logo/mao.gif\",\"danma\": true,\"danma_shader_colors\":  [\"#FFFFFF&#FFA500&#FFFF00\",\"#FFFFFF&#800080&#FF0000\",\"#008000&#FFA500&#0000FF\",\"#FFFF00&#800080&#FF0000\",\"#EC4899&#F97316&#8B5CF6\",\"#800080&#DB7093&#FF69B4\",\"#B0E0E6&#00FFFF&#00FA9A\",\"#9933CC&#FFFF00&#FF0000\",\"#FFFF00&#FF4500&#FF0000\",\"#FFFF00&#FF7F00&#FF0000\",\"#E8E2F3&#C9B6E4&#A086B7\",\"#1976D2&#7B1FA2\",\"#D84315&#8D6E63&#FFF8E1\",\"#E63F00&#EE7700&#EEEE00&#00DD00&#CC00FF\",\"#FFB7C5&#ADD8E6&#F8F9FA\"]}"    
+    }
+  ],
+  "notifyUpdate": true,
+    "updateTime": "05/8"
+}
+
+

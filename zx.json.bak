@@ -1,0 +1,22 @@
+{
+    "urls": [
+    
+
+{"name": "阿当4K全网盘","url":"./全网盘.json"},    
+ {"name": "Pg","url":"file://Pg/jsm.json"}, {"name": "短剧","url":"file://短剧/dj.json"},
+  {"name": "4K免ck","url":"https://cnb.cool/zhyadc/YsBox/-/git/raw/main/index.json"},
+ {"name": "4K时光","url":" https://gitee.com/yuhang88/xgw/raw/master/%E6%97%B6%E5%85%89.json"},
+  {"name": "音乐","url":" ./音乐.json"},
+{"name": "阿当4K弹幕","url":"./阿当弹幕.json"},
+{"name": "阿当2K弹幕","url":"https://d.kstore.dev/download/6526/2k画质.json"},
+{"name": "放牛娃娃","url":"http://tvbox.王二小放牛娃.top"},
+{"name": "饭太硬","url":"http://www.饭太硬.com/tv"},
+{ "name": "潇洒", "url": "file://TVBoxOSC/tvbox/api.json" }  
+     
+     
+    
+    
+
+    ]
+}
+
