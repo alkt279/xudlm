@@ -1,0 +1,30 @@
+var rule={
+    title: 'DJ幻影',
+    host: 'http://www.dj92.cc/',
+    searchUrl: '/search.html?key=**',
+    url: '/djlist/fyclass/fypage.html',
+    headers: {
+        'User-Agent': 'MOBILE_UA'
+        },
+    timeout: 5000,
+    class_parse: '.nav-box li:gt(0);a&&Text;a&&href;.*/(.*?).html',
+    cate_exclude: '',
+    limit: 40,
+    play_parse: true,
+    lazy: '',
+    推荐: '*',
+    double: true,
+    一级: 'body&&.music-body li;a&&title;img&&src;.nickname&&Text;a&&href',
+    二级: {
+            title: 'a&&title',
+            img: 'img&&src',
+            desc: '.nickname&&Text',
+            content: '.nickname&&Text',
+            tabs: '',
+            lists: '.center',
+            tab_text: '',
+            list_text: '',
+            list_url: 'a&&href',
+    },
+    搜索: '.music-body li:gt(0);a&&title;img&&src;.nickname&&Text;a&&href',
+}
