@@ -1,0 +1,16 @@
+{
+ "二次截取":"class=\"module-items\"&&class=\"module-footer",
+ "数组":"class=\"module-item\"&&class=\"module-item\"",
+ "标题":"title=\"&&\"",
+ "副标题":"class=\"module-item-text\">&&</div",
+ "链接":"href=\"&&\"",
+ "播放数组":"class=\"scroll-content&&</div",
+ "简介":"vod_content\">&&</span",
+ "影片年代":"上映：</span>&&</div",
+ "导演":"导演：</span>&&</div",
+ "演员":"主演：</span>&&</div",
+        "分类url": "https://vidhub2.cc/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+        "分类": "电影&剧集&综艺&动漫",
+        "分类值": "1&2&3&4"   
+    }
+           
